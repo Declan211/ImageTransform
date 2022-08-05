@@ -1,0 +1,11 @@
+load test/testLoadFiles/valid2x2.ppm valid2x2 brighten 
+10 valid2x2 valid2x2-brighten 
+red-component valid2x2-brighten valid2x2-red vertical-flip valid2x2-red 
+valid2x2-vert 
+horizontal-flip valid2x2-vert valid2x2-hor blue-component valid2x2-hor 
+valid2x2-blue 
+green-component valid2x2-blue valid2x2-green value-component valid2x2-green 
+valid2x2-value 
+intensity-component valid2x2-value valid2x2-intensity luma-component 
+valid2x2-intensity 
+valid2x2-luma save test/testLoadFiles/valid2x2-lum.ppm valid2x2-luma 
